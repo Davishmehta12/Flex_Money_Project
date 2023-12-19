@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('./yoga-class.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  width: 600em;
+  max-width: 600px; 
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+.radio-div input{
+  width: 10px;
+}
+input,button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.radio-fields {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.radio-div {
+  margin-top: 10px;
+  width: 80px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.details-div{
+  margin-top: 7px;
+}
